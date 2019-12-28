@@ -1,0 +1,72 @@
+.container1{
+    width:1550px;
+    height: 200px;
+    background-color: black;
+    margin-left:180px;
+}
+
+.logo{
+    width: 220px;
+    margin:20px 20px;
+}
+.menu{
+float:left;
+margin-left: 554px;
+}
+ul li{
+    float:left;
+    padding:20px;
+    letter-spacing: 4px;
+    color:black;
+    font-size:30px;
+   
+}
+ul li a{
+   
+    letter-spacing: 4px;
+    color:white;
+    font-size:20px;
+   
+}
+.container2{
+    width:1536px;
+    height: 760px;
+    background-color: grey;
+    margin-left:180px;
+    border:8px ridge;
+    justify-content: space-between;
+}
+.col1{
+    flex-grow:1;
+    width:50%;
+    padding:20px;
+    margin-left:350px;
+}
+.co1{
+    position: relative;
+    width: 100%;
+}
+.imageOver{
+    display: block;
+    width:100%;
+    height: auto;
+    
+}
+.OverLay{
+    position: absolute;
+   top: 0%;
+    background-color: rgba(0,0,0, .6);
+    overflow:hidden;
+    width:0;
+    height: 100%;
+    transition: width 3s;
+}
+.co1:hover .OverLay{
+    width:100%;
+}
+.engineText{
+    white-space: nowrap;
+    color:white;
+    font-size:25px;
+    text-align: center;
+}
